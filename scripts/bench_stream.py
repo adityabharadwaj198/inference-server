@@ -103,4 +103,4 @@ for c in (1, 2, 4):
     out["C"][c] = row
     print(c, json.dumps(row), flush=True)
 
-json.dump(out, open("bench_stream.json", "w"), indent=2)
+json.dump(out, open("results/bench_stream.json", "w"), indent=2)

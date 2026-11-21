@@ -27,4 +27,4 @@ for n in (32, 128, 512, 2000):
         "cumulative_ms": cumulative * 1000,
     }
     print(n, json.dumps(rows[n]), flush=True)
-json.dump(rows, open("bench_decode.json", "w"), indent=2)
+json.dump(rows, open("results/bench_decode.json", "w"), indent=2)
